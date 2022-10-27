@@ -2,7 +2,11 @@
 # Project 2
 
 ## Description
-A real-world front-end application developed using the skills and technologies learned in previous modules (deployment, interactivity, client-side storage, responsive design, and polished UI). Application will be used as part of professional porfolio to show potential employers.
+Projects play a key role in your journey to becoming a full-stack web developer. As you enter the last phase of the boot camp, you’ll begin to apply for development jobs. If you want to land interviews, your portfolio must feature high-quality deployed examples of your work—and you can use your finished projects for that very purpose.
+
+As your first opportunity to show employers your collaborative skills and coding abilities, this particular project will be a focal point of your portfolio. Employers want to see what you can do, but they also want to see how you work with other developers. The more examples of deployed collaborative work you have in your portfolio, the more likely you are to get an interview and a job. That’s why one of the requirements for this project is that you add it to your portfolio.
+
+Near the end of the boot camp, you’ll have the opportunity to present your work to industry professionals at a Demo Day. As you work with your group, consider the types of questions you may get from potential employers during a presentation or an interview and practice articulating your answers. Why did you choose a certain technology? What was your collaborative process? How did you decide who would work on what? How did you communicate with your group members? How did you contribute specifically to the project? Pay special attention to this last one, as it’s a very common interview question.
 
 ## Table of Contents
 * [Mock Up](#Mock-Up)
