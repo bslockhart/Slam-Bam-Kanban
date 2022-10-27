@@ -22,7 +22,7 @@ A real-world front-end application developed using the skills and technologies l
 * [Submission](#Submission)
 
 ## Mock Up
-The following image shows the web application's appearance and functionality:
+Group 5 is Awesome!!!
 ![Mock Up](./assets/images/mockup.png)
 
 ## Group Members 
