@@ -12,6 +12,7 @@ Near the end of the boot camp, you’ll have the opportunity to present your wor
 * [Mock Up](#Mock-Up)
 * [Group Members](#Group-Members)
 * [Technologies Used](#Technologies-Used)
+* [Getting Started](#Getting-Started)
 * [API](#API's)
 * [Project Requirements](#Project-Requirements)
 * [Concept](#Concept)
@@ -45,6 +46,15 @@ Group 5 is Awesome!!!
 * MySQL
 * Heroku
 * Git
+
+## Getting Started
+mysql -u root -p
+enter password
+source db/schema.sql
+quit
+npm i
+npm run seed
+npm startmoc
 
 ## API's
 * 
@@ -130,6 +140,6 @@ Group 5 is Awesome!!!
 ### Submission
 * Date Submitted: 11/09/22
 * The URL of the deployed application: 
-* The URL of the GitHub repository that contains your code: 
+* The URL of the GitHub repository that contains your code: https://github.com/bslockhart/Slam-Bam-Kanban
 * The URL of your portfolio, with your project added to it:   
 * PowerPoint Presentation Document: 
