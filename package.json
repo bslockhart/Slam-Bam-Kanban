@@ -3,24 +3,37 @@
   "version": "1.0.0",
   "description": "starter template for project 2",
   "main": "server.js",
+  "engines": {
+    "node": "16.17.0",
+    "npm": "8.15.0"
+  },
   "scripts": {
     "dev": "nodemon server.js",
     "seed": "node seeds",
     "test": "test"
   },
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://git.heroku.com/slam-bam-kanban.git"
+  },
+  "author": "Brian Lockhart",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bslockhart/slam-bam-kanban/issues"
+  },
+  "homepage": "https://github.com/bslockhart/slam-bam-kanban#readme",
   "dependencies": {
-    "bcrypt": "^5.1.0",
-    "connect-session-sequelize": "^7.1.5",
-    "dotenv": "^16.0.3",
+    "bcrypt": "^5.0.0",
+    "connect-session-sequelize": "^6.1.1",
+    "dotenv": "^8.2.0",
     "express": "^4.18.2",
     "express-handlebars": "^6.0.6",
-    "express-session": "^1.17.3",
-    "mysql2": "^2.3.3",
-    "sequelize": "^6.25.3"
+    "express-session": "^1.17.1",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.12"
   },
   "devDependencies": {
-    "nodemon": "^2.0.20"
+    "jest": "^26.4.2",
+    "nodemon": "^2.0.4"
   }
 }
