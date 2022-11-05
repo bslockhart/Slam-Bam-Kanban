@@ -1,5 +1,9 @@
-const User = require('./User');
+const User = require("./User");
 
 module.exports = {
-  User
+  User,
 };
+
+var button = document.getElementById("create-task");
+
+button.addEventListener("click", displayDate);
