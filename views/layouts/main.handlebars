@@ -15,16 +15,21 @@
     integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
     crossorigin="anonymous"></script>
   <link href="css/style.css" rel="stylesheet">
-  <link href="css/style2.css" rel="stylesheet">
   <script src="/js/script.js" async></script>
 </head>
 
 <body>
+  <!-- Basically, if isAuthenticated is true, i.e. the user is logged in, then show the navbar partial. Otherwise, don't show it. --> 
   {{#if isAuthenticated}}
   {{> navbar}}
   {{/if}}
+  <!-- Show the toast partial regardless of whether the user is logged in or not --> 
   {{> toast}}
+
+  <!-- All the other templates will be inserted into the {{{ body }}} -->
   {{{ body }}}
+
+  <!-- Basically, if isAuthenticated is true, i.e. the user is logged in, then load the logout.js script. Otherwise, don't load it. --> 
   {{#if isAuthenticated}}
   <script src="/js/logout.js"></script>
   {{/if}}

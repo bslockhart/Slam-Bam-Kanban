@@ -1,3 +1,2 @@
-DROP DATABASE IF EXISTS project_2_db;
-
-CREATE DATABASE project_2_db;
+DROP DATABASE IF EXISTS blockhart_db;
+CREATE DATABASE blockhart_db;

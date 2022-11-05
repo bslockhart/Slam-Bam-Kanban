@@ -39,6 +39,6 @@ const force = process.env.FORCE_SYNC === "true";
 
 sequelize.sync({ force }).then(() => {
   app.listen(PORT, () => {
-    console.log(`Server listening on port ${PORT}`);
+    console.log(`***** Server listening on port ${PORT} *****`);
   });
 });
