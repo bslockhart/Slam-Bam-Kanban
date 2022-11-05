@@ -3,7 +3,7 @@ module.exports = {
     res.render(
       'dashboard',
       {
-        welcomeMessage: `Welcome to the dashboard ${req.session.currentUser.firstName}!`,
+        welcomeMessage: `Welcome to your dashboard ${req.session.currentUser.firstName}!`,
         isAuthenticated: req.session.isAuthenticated
       }
     );
