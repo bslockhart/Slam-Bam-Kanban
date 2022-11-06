@@ -1,39 +1,30 @@
 {
-  "name": "project-2-template",
-  "version": "1.0.0",
-  "description": "starter template for project 2",
-  "main": "server.js",
-  "engines": {
-    "node": "16.17.0",
-    "npm": "8.15.0"
-  },
-  "scripts": {
-    "dev": "nodemon server.js",
-    "seed": "node seeds",
-    "test": "test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://git.heroku.com/slam-bam-kanban.git"
-  },
-  "author": "Brian Lockhart",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/bslockhart/slam-bam-kanban/issues"
-  },
-  "homepage": "https://github.com/bslockhart/slam-bam-kanban#readme",
-  "dependencies": {
-    "bcrypt": "^5.0.0",
-    "connect-session-sequelize": "^6.1.1",
-    "dotenv": "^8.2.0",
-    "express": "^4.18.2",
-    "express-handlebars": "^6.0.6",
-    "express-session": "^1.17.1",
-    "mysql2": "^2.1.0",
-    "sequelize": "^5.21.12"
-  },
-  "devDependencies": {
-    "jest": "^26.4.2",
-    "nodemon": "^2.0.4"
-  }
+    "name": "user-list",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js",
+        "seed": "node seeds/seed.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.27.2",
+        "bcrypt": "^5.0.0",
+        "connect-session-sequelize": "^7.0.4",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "express-handlebars": "^5.2.0",
+        "express-session": "^1.17.1",
+        "mysql2": "^2.2.5",
+        "sequelize": "^6.3.5"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.4.8",
+        "postcss": "^8.4.14",
+        "tailwindcss": "^3.1.7"
+    }
 }
