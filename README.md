@@ -1,5 +1,5 @@
 # Group 5
-# Project 2
+# Project 2 Slam Bam Kanban
 
 ## Description
 Projects play a key role in your journey to becoming a full-stack web developer. As you enter the last phase of the boot camp, you’ll begin to apply for development jobs. If you want to land interviews, your portfolio must feature high-quality deployed examples of your work—and you can use your finished projects for that very purpose.
@@ -54,7 +54,8 @@ source db/schema.sql
 quit
 npm i
 npm run seed
-npm startmoc
+npm start
+localhost:3001
 
 ## API's
 * 
@@ -143,3 +144,4 @@ npm startmoc
 * The URL of the GitHub repository that contains your code: https://github.com/bslockhart/Slam-Bam-Kanban
 * The URL of your portfolio, with your project added to it:   
 * PowerPoint Presentation Document: 
+
