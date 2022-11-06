@@ -33,6 +33,7 @@ module.exports = {
         .insertAdjacentHTML("beforeend", taskLi);
     };
 
+    // replace local storage with our data base
     var loadTasks = function () {
       tasks = JSON.parse(localStorage.getItem("tasks"));
 
@@ -46,7 +47,7 @@ module.exports = {
         };
       }
 
-      // loop over object properties
+      // loop over object properties - probably don't need this
       $.each(tasks, function (list, arr) {
         // then loop over sub-array
         arr.forEach(function (task) {
@@ -55,6 +56,7 @@ module.exports = {
       });
     };
 
+    // Probably need something here to save to our database instead of local storage
     var saveTasks = function () {
       localStorage.setItem("tasks", JSON.stringify(tasks));
     };
@@ -169,7 +171,7 @@ module.exports = {
       },
     });
 
-    // convert text field into a jquery date picker
+    // convert text field into a date picker -stop here
     document.querySelector("#modalDueDate").datepicker({
       // force user to select a future date
       minDate: 1,
