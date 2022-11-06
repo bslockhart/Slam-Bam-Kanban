@@ -5,7 +5,3 @@ module.exports = {
   PageController,
   UserController,
 };
-
-var button = document.getElementById("create-task");
-
-button.addEventListener("click", displayDate);
