@@ -19,10 +19,14 @@
 </head>
 
 <body>
+  <!-- Basically, if isAuthenticated is true, i.e. the user is logged in, then show the navbar partial. Otherwise, don't show it. --> 
   {{#if isAuthenticated}}
   {{> navbar}}
   {{/if}}
+  <!-- Show the toast partial regardless of whether the user is logged in or not --> 
   {{> toast}}
+
+  <!-- All the other templates will be inserted into the {{{ body }}} -->
   {{{ body }}}
 {{!-- this is where kanban goes --}}
 <div class="row min-vh-100 no-gutters">
@@ -119,6 +123,10 @@
   </div>
 
 </body>
+
+
+
+
 
 
   {{#if isAuthenticated}}
