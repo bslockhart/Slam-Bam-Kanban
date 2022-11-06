@@ -4,6 +4,7 @@ module.exports = {
       welcomeMessage: `Welcome to your dashboard ${req.session.currentUser.firstName}!`,
       isAuthenticated: req.session.isAuthenticated,
     });
+
     var tasks = {};
 
     var createTask = function (taskText, taskDate, taskList) {
