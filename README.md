@@ -37,6 +37,7 @@ Group 5 is Awesome!!!
 * Zack Pokorny
 
 ## Technologies Used
+* Handlebars
 * HTML
 * CSS
 * Node.js
@@ -79,18 +80,15 @@ localhost:3001
 15. Finally, you must add your project to the portfolio that you created in Module 2.
 
 # Concept
-* Given I am user who wants to 
-* When I enter
-* Then I am presented with 
-* Given  I am a user who v
-* When I click on 
-* Then I am presented with 
-* Given I am a user who wants to 
-* When I view a
-* Then I also 
-* Given I am a user who 
-* When I view 
-* Then I am presented with
+* Given I am user who wants to keep track of job search information.
+* When I enter my wishlist.
+* Then I am presented with a location to add my dream job.
+* Given  I am a user who wants to keep track of applications.
+* When I click on applied, I can add current applications.
+* Given I am a user who wants to keep track of interviews.
+* When I add click the add button, I can enter interview information.
+* Given I am a user who wants to keep track of offers.
+* When I click add, I can keep view current job offers.
 
 ### Presentation Requirements
 1. Elevator pitch: A one-minute description of your application.
@@ -140,8 +138,7 @@ localhost:3001
 
 ### Submission
 * Date Submitted: 11/09/22
-* The URL of the deployed application: 
+* The URL of the deployed application: https://slam-bam-kanban.herokuapp.com/login
 * The URL of the GitHub repository that contains your code: https://github.com/bslockhart/Slam-Bam-Kanban
 * The URL of your portfolio, with your project added to it:   
-* PowerPoint Presentation Document: 
-
+* PowerPoint Presentation Document: https://docs.google.com/presentation/d/1zpMDRyQgwQl6RFWtyTntWpweepLJgqp9/edit?usp=share_link&ouid=103431585642431900224&rtpof=true&sd=true
