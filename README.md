@@ -2,11 +2,10 @@
 # Project 2 Slam Bam Kanban
 
 ## Description
-Projects play a key role in your journey to becoming a full-stack web developer. As you enter the last phase of the boot camp, you’ll begin to apply for development jobs. If you want to land interviews, your portfolio must feature high-quality deployed examples of your work—and you can use your finished projects for that very purpose.
+## Description
+Welcome to the Slam Bam Kanban. This application is designed for bootcamp students who will soon be looking for employment. This application was created collaboratively by Group 5 using everything we've learned over the past six weeks; furthermore, this application contains an entirely new templating engine called handlebars.
 
-As your first opportunity to show employers your collaborative skills and coding abilities, this particular project will be a focal point of your portfolio. Employers want to see what you can do, but they also want to see how you work with other developers. The more examples of deployed collaborative work you have in your portfolio, the more likely you are to get an interview and a job. That’s why one of the requirements for this project is that you add it to your portfolio.
-
-Near the end of the boot camp, you’ll have the opportunity to present your work to industry professionals at a Demo Day. As you work with your group, consider the types of questions you may get from potential employers during a presentation or an interview and practice articulating your answers. Why did you choose a certain technology? What was your collaborative process? How did you decide who would work on what? How did you communicate with your group members? How did you contribute specifically to the project? Pay special attention to this last one, as it’s a very common interview question.
+The Slam Bam Kanban is a MVP that we believe meets all of the criteria for our application. Each member of the group has played a significant role in the development of this application. Our goal is to continue development of this MVP throughout the course. We present the Slam Bam Kanban.
 
 ## Table of Contents
 * [Mock Up](#Mock-Up)
@@ -33,7 +32,6 @@ Group 5 is Awesome!!!
 ## Group Members 
 * Alexander Defrese 
 * Brian Lockhart
-* Nina Serebryakova
 * Zack Pokorny
 
 ## Technologies Used
@@ -59,7 +57,7 @@ npm start
 localhost:3001
 
 ## API's
-* 
+* https://linkedin-jobs-search.p.rapidapi
 
 ### Project Requirements
 * Your project should fulfill the following requirements:
@@ -140,5 +138,5 @@ localhost:3001
 * Date Submitted: 11/09/22
 * The URL of the deployed application: https://slam-bam-kanban.herokuapp.com/login
 * The URL of the GitHub repository that contains your code: https://github.com/bslockhart/Slam-Bam-Kanban
-* The URL of your portfolio, with your project added to it:   
+* The URL of your portfolio, with your project added to it: https://bslockhart.github.io/Lockhart-Portfolio/  
 * PowerPoint Presentation Document: https://docs.google.com/presentation/d/1zpMDRyQgwQl6RFWtyTntWpweepLJgqp9/edit?usp=share_link&ouid=103431585642431900224&rtpof=true&sd=true
