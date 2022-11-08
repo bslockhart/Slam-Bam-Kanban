@@ -3,7 +3,12 @@ const { User } = require("../models");
 const withAuth = require("../utils/auth");
 
 
-
+router.get("/", withAuth, async (req, res) => {
+  if (req.session.logged_in) {
+    res.redirect("/home");
+    return;
+  }
+});
 
 router.get('/login', (req, res) => {
   if (req.session.logged_in) {
@@ -13,6 +18,7 @@ router.get('/login', (req, res) => {
   res.render("login");
 });
 
+router.get("/home", async (req, res) => res.render("homepage"));
 
 router.get('/search', async (req, res) =>
   res.render('job_search', {
@@ -27,12 +33,5 @@ router.get('/home', async (req, res) =>
   }
   )
 )
-
-router.get("*", withAuth, async (req, res) => {
-  if (req.session.logged_in) {
-    res.redirect("/home");
-    return;
-  }
-});
 
 module.exports = router
