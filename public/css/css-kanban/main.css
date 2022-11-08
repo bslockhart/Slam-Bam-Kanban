@@ -1,8 +1,8 @@
 .kanban {
 	display: flex;
-	padding: 30px;
-	width: 750px;
-	background: #007377;
+	padding: 10px;
+	width: 1050px;
+	background: #04f3fb;
 	border-radius: 5px;
 }
 
@@ -21,14 +21,14 @@
 .kanban__column-title {
 	margin-bottom: 20px;
 	font-size: 30px;
-	color:white;
+	color: rgb(4, 4, 5);
 	user-select: none;
 }
 
 .kanban__item-input {
 	padding: 10px 15px;
 	box-sizing: border-box;
-	background: white;
+	background: black;
 	border-radius: 5px;
 	cursor: pointer;
 }
