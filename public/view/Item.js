@@ -8,8 +8,10 @@ class Item {
 
 		this.elements.root.dataset.id = id;
 		this.elements.input.textContent = content;
-		this.content = content;
+		// this.content = content;
 		this.elements.root.appendChild(bottomDropZone);
+
+		console.log(id);
 
 		const onBlur = () => {
 			const newContent = this.elements.input.textContent.trim();
@@ -23,7 +25,7 @@ class Item {
 				content: this.content
 			});
 
-			console.log(this.content);
+			console.log(content);
 			console.log(newContent);
 		};
 
