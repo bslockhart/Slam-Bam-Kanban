@@ -1,7 +1,7 @@
 # Group 5
-# Project 2 Slam Bam Kanban
+# Project 2 
+# Slam Bam Kanban
 
-## Description
 ## Description
 Welcome to the Slam Bam Kanban. This application is designed for bootcamp students who will soon be looking for employment. This application was created collaboratively by Group 5 using everything we've learned over the past six weeks; furthermore, this application contains an entirely new templating engine called handlebars.
 
@@ -11,13 +11,11 @@ The Slam Bam Kanban is a MVP that we believe meets all of the criteria for our a
 * [Mock Up](#Mock-Up)
 * [Group Members](#Group-Members)
 * [Technologies Used](#Technologies-Used)
-* [Getting Started](#Getting-Started)
 * [API](#API's)
 * [Project Requirements](#Project-Requirements)
 * [Concept](#Concept)
 * [Presentation Requirements](#User-Story)
 * [Technical Acceptance Criteria](#Technical-Acceptance-Criteria)
-* [Concept](#Concept)
 * [Deployment](#Deployment)
 * [Repository Quality](#Repository-Quality)
 * [Application Quality](#Application-Quality)
@@ -45,16 +43,6 @@ Group 5 is Awesome!!!
 * MySQL
 * Heroku
 * Git
-
-## Getting Started
-mysql -u root -p
-enter password
-source db/schema.sql
-quit
-npm i
-npm run seed
-npm start
-localhost:3001
 
 ## API's
 * https://linkedin-jobs-search.p.rapidapi
@@ -104,10 +92,6 @@ localhost:3001
 - Application includes user authentication (express-session and cookies).
 - Application uses at least one new library, package, or technology not covered in class.
 
-### Concept
-* Application should be a unique and novel idea.
-* Your group should clearly and concisely articulate your project idea.
-
 ### Deployment
 * Application deployed at live URL and loads with no errors.
 * Application GitHub URL submitted.
@@ -129,7 +113,7 @@ localhost:3001
 1. Your group should present using Powerpoint or a similar presentation software.
 2. Every group member should speak during the presentation.
 3. Project Presentation Template: https://docs.google.com/presentation/d/10QaO9KH8HtUXj__81ve0SZcpO5DbMbqqQr4iPpbwKks/edit#slide=id.p
-4. PowerPoint Presentation Document: 
+4. PowerPoint Presentation Document.
 
 ### Collaboration
 * There are no major disparities in the number of GitHub contributions between group members.
