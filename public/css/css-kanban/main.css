@@ -1,9 +1,11 @@
 .kanban {
 	display: flex;
 	padding: 10px;
-	width: 1050px;
+	width: 100vw;
 	background: #04f3fb;
 	border-radius: 5px;
+	box-shadow: 1px 1px 20px rgb(118, 203, 232);
+	justify-content: center;
 }
 
 .kanban * {
@@ -52,4 +54,14 @@
 	border: none;
 	border-radius: 5px;
 	cursor: pointer;
+}
+
+.kanban__add-item:hover {
+	background-color: #38ffff;
+  	box-shadow: 0px 0px 20px rgb(54, 58, 59);
+	color: black;
+}
+
+dblClick {
+	text-shadow: 0 0 3px #FF0000
 }

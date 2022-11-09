@@ -16,9 +16,10 @@ class KanbanAPI {
 
 		if (!column) {
 			throw new Error("Column does not exist.");
-		}
+		}else {
 		column.items.push(item);
 		save(data);
+		}
 
 		return item;
 	}

@@ -11,9 +11,18 @@ main {
   display: block;
 }
 
+
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
+}
+
+h1.sub {
+  display: flex;
+  font-size: 1em;
+  justify-content:center;
+  align-items: center;
+  text-shadow: 0 0 3px #9ed7ea
 }
 
 .searchH1 {
@@ -216,14 +225,23 @@ h6 {
 
 h1 {
   font-size: 2.25rem;
+  text-shadow: 0px 0px 10px rgb(118 203 232);
+  align-items: center;
+  text-align: center;
 }
 
 h2 {
   font-size: 4rem;
+  text-shadow: 0px 0px 10px rgb(118 203 232);
 }
+
 
 h3 {
   font-size: 1.75rem;
+}
+
+h3.login {
+  font-size: 2.25rem;
 }
 
 h4 {
@@ -263,7 +281,7 @@ button {
 }
 
 a {
-  color: #1b89bc;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -805,12 +823,14 @@ a:hover {
   border: 1px solid transparent;
   outline: none;
   color: #1a1a1a;
-  background-color: #aeaeae;
+  background-color: #07f9e1;
   transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
 
 .btn:hover {
-  background-color: #cecece;
+  background-color: #feffff;
+  box-shadow: 0px 0px 20px rgb(64, 201, 247)
+
 }
 
 .btn.btn-squared {

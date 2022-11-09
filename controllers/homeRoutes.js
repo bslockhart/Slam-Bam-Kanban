@@ -18,8 +18,6 @@ router.get('/login', (req, res) => {
   res.render("login");
 });
 
-router.get("/home", async (req, res) => res.render("homepage"));
-
 router.get('/search', async (req, res) =>
   res.render('job_search', {
     logged_in: req.session.logged_in,
